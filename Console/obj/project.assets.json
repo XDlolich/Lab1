@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SeDMI\\source\\repos\\Laba1\\Console\\Console.csproj",
-      "projectName": "Console",
-      "projectPath": "C:\\Users\\SeDMI\\source\\repos\\Laba1\\Console\\Console.csproj",
+      "projectUniqueName": "C:\\Users\\SeDMI\\source\\repos\\Laba1\\Console\\MigrantIDConsole.csproj",
+      "projectName": "MigrantIDConsole",
+      "projectPath": "C:\\Users\\SeDMI\\source\\repos\\Laba1\\Console\\MigrantIDConsole.csproj",
       "packagesPath": "C:\\Users\\SeDMI\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\SeDMI\\source\\repos\\Laba1\\Console\\obj\\",
       "projectStyle": "PackageReference",
