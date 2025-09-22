@@ -1,0 +1,6 @@
+C:\Users\SeDMI\source\repos\Laba1\Model\bin\Debug\Model.dll
+C:\Users\SeDMI\source\repos\Laba1\Model\bin\Debug\Model.pdb
+C:\Users\SeDMI\source\repos\Laba1\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\SeDMI\source\repos\Laba1\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\SeDMI\source\repos\Laba1\Model\obj\Debug\Model.dll
+C:\Users\SeDMI\source\repos\Laba1\Model\obj\Debug\Model.pdb

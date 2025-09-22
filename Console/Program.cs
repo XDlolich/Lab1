@@ -1,23 +1,23 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Model;
 
 namespace Laba1
-
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-                Logic logic = new Logic();
-                Console.CursorVisible = true;
+            Logic logic = new Logic();
+            Console.CursorVisible = true;
 
-                MainMenu(logic);
+            MainMenu(logic);
         }
 
         /// <summary>
         /// Метод работы консольного меню.
         /// </summary>
-        /// <param name="logic">Экземпляр логики модели.</param>
         static void MainMenu(Logic logic)
         {
             int selectedIndex = 0;
@@ -26,14 +26,15 @@ namespace Laba1
             {
                 Console.Clear();
                 var migrants = logic.GetMigrantList().ToList();
-                Console.WriteLine("Система \"Мигрант ID\" (стрелки для переключения по списку, Enter - действия, A - добавить, F - фильтры, Esc - выход):\n");
+                Console.WriteLine("Система \"Мигрант ID\"");
+                Console.WriteLine("(стрелки для списка, Enter - действия, A - добавить мигранта, C - добавить страну, F - фильтры, Esc - выход):\n");
 
                 for (int i = 0; i < migrants.Count; i++)
                 {
                     if (i == selectedIndex)
                         Console.BackgroundColor = ConsoleColor.DarkBlue;
 
-                    Console.WriteLine($"{i + 1}. {migrants[i].Name} ({migrants[i].Birthday.Year} г.р.)");
+                    Console.WriteLine($"{i + 1}. {migrants[i].Name} ({migrants[i].Birthday.Year} г.р.) [{migrants[i].CountryOfOrigin}]");
                     Console.ResetColor();
                 }
 
@@ -58,20 +59,23 @@ namespace Laba1
                         AddNewMigrant(logic);
                         break;
 
+                    case ConsoleKey.C:
+                        AddNewCountry(logic);
+                        break;
+
                     case ConsoleKey.F:
                         ShowFiltersMenu(logic);
                         break;
 
                     case ConsoleKey.Escape:
-                        return; 
+                        return;
                 }
             }
         }
 
         /// <summary>
-        /// Метод работы меню фильтров.
+        /// Меню фильтров.
         /// </summary>
-        /// <param name="logic">Экземпляр логики модели.</param>
         static void ShowFiltersMenu(Logic logic)
         {
             while (true)
@@ -80,7 +84,7 @@ namespace Laba1
                 Console.WriteLine("Меню фильтров:");
                 Console.WriteLine("1 - Показать только судимых");
                 Console.WriteLine("2 - Показать по времени пребывания (долгие в начале)");
-                Console.WriteLine("0 - Назад");
+                Console.WriteLine("0/Esc - Назад");
 
                 ConsoleKey key = Console.ReadKey(true).Key;
 
@@ -88,13 +92,11 @@ namespace Laba1
                 {
                     var criminals = logic.GetMigrantsWithCriminalRecord().ToList();
                     ShowFilteredList(criminals, "Список судимых:");
-                    break;
                 }
                 else if (key == ConsoleKey.D2 || key == ConsoleKey.NumPad2)
                 {
                     var sortedByDuration = logic.GetMigrantsByDurationOfStay().ToList();
                     ShowFilteredList(sortedByDuration, "Список по длительности пребывания:");
-                    break;
                 }
                 else if (key == ConsoleKey.D0 || key == ConsoleKey.Escape)
                 {
@@ -104,10 +106,8 @@ namespace Laba1
         }
 
         /// <summary>
-        /// Показ объектов отфильтрованной коллекции.
+        /// Показ отфильтрованной коллекции.
         /// </summary>
-        /// <param name="migrants"></param>
-        /// <param name="header"></param>
         static void ShowFilteredList(List<Migrant> migrants, string header)
         {
             Console.Clear();
@@ -115,7 +115,7 @@ namespace Laba1
 
             for (int i = 0; i < migrants.Count; i++)
             {
-                Console.WriteLine($"{i + 1}. {migrants[i].Name} ({migrants[i].Birthday.Year} г.р.)");
+                Console.WriteLine($"{i + 1}. {migrants[i].Name} ({migrants[i].Birthday.Year} г.р.) [{migrants[i].CountryOfOrigin}]");
             }
 
             Console.WriteLine("\nНажмите любую клавишу для возврата...");
@@ -123,10 +123,8 @@ namespace Laba1
         }
 
         /// <summary>
-        /// Метод работы чтения записи.
+        /// Чтение записи мигранта.
         /// </summary>
-        /// <param name="logic">Экзмепляр логики модели.</param>
-        /// <param name="migrant">Объект для чтения.</param>
         static void ShowMigrantMenu(Logic logic, Migrant migrant)
         {
             while (true)
@@ -136,12 +134,13 @@ namespace Laba1
                 Console.WriteLine($"Описание: {migrant.Description}");
                 Console.WriteLine($"Дата рождения: {migrant.Birthday:dd.MM.yyyy}");
                 Console.WriteLine($"Дата миграции: {migrant.DayOfMigration:dd.MM.yyyy}");
-                Console.WriteLine($"Судим: {(migrant.HasCriminalRecord ? "Да" : "Нет")}\n");
+                Console.WriteLine($"Судим: {(migrant.HasCriminalRecord ? "Да" : "Нет")}");
+                Console.WriteLine($"Страна происхождения: {migrant.CountryOfOrigin}\n");
 
                 Console.WriteLine("Выберите действие:");
                 Console.WriteLine("1 - Редактировать");
                 Console.WriteLine("2 - Удалить");
-                Console.WriteLine("0 - Назад");
+                Console.WriteLine("0/Esc - Назад");
 
                 ConsoleKey key = Console.ReadKey(true).Key;
 
@@ -163,52 +162,55 @@ namespace Laba1
         }
 
         /// <summary>
-        /// Метод работы редактирования мигранта в консоли.
+        /// Редактирование мигранта.
         /// </summary>
-        /// <param name="logic">Экземпляр логики модели.</param>
-        /// <param name="migrant">Объект для редактирования.</param>
         static void EditMigrant(Logic logic, Migrant migrant)
         {
-            string name;
-            string desc;
-            DateTime birthday;
-            DateTime migration;
-            bool criminal;
-            Migrant EditedMigrant = migrant;
+            string name = migrant.Name;
+            string description = migrant.Description;
+            string country = migrant.CountryOfOrigin;
+            DateTime birthday = migrant.Birthday;
+            DateTime dayOfMigration = migrant.DayOfMigration;
+            bool hasCriminalRecord = migrant.HasCriminalRecord;
 
-            Console.Clear();
-            EditName(out name);
-            
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("Редактирование мигранта:");
+                Console.WriteLine($"1 - Имя ({name})");
+                Console.WriteLine($"2 - Описание ({description})");
+                Console.WriteLine($"3 - Дата рождения ({birthday:dd.MM.yyyy})");
+                Console.WriteLine($"4 - Дата миграции ({dayOfMigration:dd.MM.yyyy})");
+                Console.WriteLine($"5 - Судимость ({(hasCriminalRecord ? "Да" : "Нет")})");
+                Console.WriteLine($"6 - Страна ({country})");
+                Console.WriteLine("0/Esc - Сохранить и выйти");
 
-            Console.Clear();
-            EditDesc(out desc);
+                ConsoleKey key = Console.ReadKey(true).Key;
 
+                if (key == ConsoleKey.D1) EditName(out name);
+                else if (key == ConsoleKey.D2) EditDesc(out description);
+                else if (key == ConsoleKey.D3) EditBirthday(out birthday);
+                else if (key == ConsoleKey.D4) EditDateOfMigration(birthday, out dayOfMigration);
+                else if (key == ConsoleKey.D5) CheckCriminal(out hasCriminalRecord);
+                else if (key == ConsoleKey.D6) country = SelectCountry(logic);
+                else if (key == ConsoleKey.D0 || key == ConsoleKey.Escape)
+                {
+                    migrant.Name = name;
+                    migrant.Description = description;
+                    migrant.Birthday = birthday;
+                    migrant.DayOfMigration = dayOfMigration;
+                    migrant.HasCriminalRecord = hasCriminalRecord;
+                    migrant.CountryOfOrigin = country;
 
-            Console.Clear();
-            EditBirthday(out birthday);
-
-            Console.Clear();
-            EditDateOfMigration(birthday, out migration);
-
-            Console.Clear();
-            CheckCriminal(out criminal);
-
-            EditedMigrant.Name = name;
-            EditedMigrant.Birthday = birthday;
-            EditedMigrant.Description = desc;
-            EditedMigrant.DayOfMigration = migration;
-            EditedMigrant.HasCriminalRecord = criminal;
-            logic.EditMigrant(EditedMigrant);
-
-            Console.Clear();
-            Console.WriteLine("Запись о мигранте успешно изменена. Нажмите любую клавишу...");
-            Console.ReadKey(true);
+                    logic.EditMigrant(migrant);
+                    break;
+                }
+            }
         }
 
         /// <summary>
-        /// Метод добавления новой записи о мигранте в консоли.
+        /// Добавление новой записи о мигранте.
         /// </summary>
-        /// <param name="logic">Экзмепляр логики модели.</param>
         static void AddNewMigrant(Logic logic)
         {
             string name;
@@ -216,14 +218,13 @@ namespace Laba1
             DateTime birthday;
             DateTime migration;
             bool criminal;
+            string country;
 
             Console.Clear();
             EditName(out name);
 
-
             Console.Clear();
             EditDesc(out desc);
-
 
             Console.Clear();
             EditBirthday(out birthday);
@@ -234,16 +235,42 @@ namespace Laba1
             Console.Clear();
             CheckCriminal(out criminal);
 
-            logic.AddNewMigrant(name, desc, birthday, migration, criminal);
+            Console.Clear();
+            country = SelectCountry(logic);
+
+            logic.AddNewMigrant(name, country, desc, birthday, migration, criminal);
             Console.Clear();
             Console.WriteLine("Мигрант успешно добавлен. Нажмите любую клавишу...");
             Console.ReadKey(true);
         }
 
         /// <summary>
-        /// Метод консольного изменения даты рождения в записи.
+        /// Добавление новой страны.
         /// </summary>
-        /// <param name="birthday">Выходной параметр даты рождения.</param>
+        static void AddNewCountry(Logic logic)
+        {
+            Console.Clear();
+            Console.Write("Введите название новой страны: ");
+            string newCountry = Console.ReadLine();
+
+            if (!string.IsNullOrWhiteSpace(newCountry) && newCountry.All(c => !char.IsDigit(c)))
+            {
+                logic.AddNewCountry(newCountry);
+                Console.WriteLine("Страна успешно добавлена!");
+            }
+            else
+            {
+                Console.WriteLine("Некорректное название страны!");
+            }
+
+            Console.WriteLine("Нажмите любую клавишу для возврата...");
+            Console.ReadKey(true);
+        }
+
+        /// <summary>
+        /// Изм. или созд. даты рождения.
+        /// </summary>
+        /// <param name="birthday">Дата рождения</param>
         static void EditBirthday(out DateTime birthday)
         {
             while (true)
@@ -257,21 +284,21 @@ namespace Laba1
         }
 
         /// <summary>
-        /// Метод консольного изменения даты миграции.
+        /// Изм. или созд. даты миграции.
         /// </summary>
-        /// <param name="birthday">Дата рождения объекта.</param>
-        /// <param name="migration">Выходная дата миграции объекта.</param>
+        /// <param name="birthday">Дата рождения</param>
+        /// <param name="migration">Дата миграции</param>
         static void EditDateOfMigration(DateTime birthday, out DateTime migration)
         {
             while (true)
             {
-                Console.Write("Новая дата миграции (дд.мм.гггг): ");
+                Console.Write("Дата миграции (дд.мм.гггг): ");
                 if (DateTime.TryParse(Console.ReadLine(), out migration))
                 {
                     if (birthday <= migration)
                         break;
                     Console.Clear();
-                    Console.WriteLine("Дата рождения не может быть позже даты миграции. Попробуйте снова.");
+                    Console.WriteLine("Дата рождения не может быть позже даты миграции.");
                 }
                 else
                 {
@@ -282,9 +309,9 @@ namespace Laba1
         }
 
         /// <summary>
-        /// Метод ввода/изменения поля о судимости.
+        /// Метод добавления отмеки о судимости.
         /// </summary>
-        /// <param name="criminal">Отметка о судимости.</param>
+        /// <param name="criminal">Логическая переменная "судим"</param>
         static void CheckCriminal(out bool criminal)
         {
             while (true)
@@ -293,42 +320,70 @@ namespace Laba1
                 if (bool.TryParse(Console.ReadLine(), out criminal))
                     break;
                 Console.Clear();
-                Console.WriteLine("Введите 'true' или 'false'. Попробуйте снова.");
+                Console.WriteLine("Введите 'true' или 'false'.");
             }
         }
 
         /// <summary>
-        /// Метод редактирования/добавления описания.
+        /// Доб. или изм. описания мигранта.
         /// </summary>
         /// <param name="desc">Строка описания</param>
         static void EditDesc(out string desc)
         {
             do
             {
-                Console.Write("Новое описание: ");
+                Console.Write("Описание: ");
                 desc = Console.ReadLine();
-                if (string.IsNullOrWhiteSpace(desc))
-                    Console.Clear();
-                Console.WriteLine("Описание не может быть пустым. Попробуйте снова.");
             } while (string.IsNullOrWhiteSpace(desc));
         }
 
         /// <summary>
-        /// Метод добавления/редактирования имени.
+        /// Добавление или изменение имени.
         /// </summary>
-        /// <param name="name">Строка имени</param>
+        /// <param name="name">Строка имя</param>
         static void EditName(out string name)
         {
             do
             {
-                Console.Write("Новое имя: ");
+                Console.Write("Имя: ");
                 name = Console.ReadLine();
-                if (string.IsNullOrWhiteSpace(name))
-                    Console.Clear();
-                Console.WriteLine("Имя не может быть пустым. Попробуйте снова.");
             } while (string.IsNullOrWhiteSpace(name));
+        }
+
+        /// <summary>
+        /// Выбор страны из списка или добавление новой.
+        /// </summary>
+        static string SelectCountry(Logic logic)
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("Выберите страну происхождения:");
+
+                var countries = logic.GetCountries();
+                for (int i = 0; i < countries.Count; i++)
+                    Console.WriteLine($"{i + 1}. {countries[i]}");
+
+                Console.WriteLine("0 - Добавить новую страну");
+
+                string input = Console.ReadLine();
+                if (int.TryParse(input, out int choice))
+                {
+                    if (choice > 0 && choice <= countries.Count)
+                        return countries[choice - 1];
+                    else if (choice == 0)
+                    {
+                        Console.Write("Введите название новой страны: ");
+                        string newCountry = Console.ReadLine();
+
+                        if (!string.IsNullOrWhiteSpace(newCountry) && newCountry.All(c => !char.IsDigit(c)))
+                        {
+                            logic.AddNewCountry(newCountry);
+                            return newCountry;
+                        }
+                    }
+                }
+            }
         }
     }
 }
-    
-

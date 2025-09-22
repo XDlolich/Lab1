@@ -1,0 +1,13 @@
+C:\Users\SeDMI\source\repos\Laba1\Laba1\bin\Debug\Laba1.exe.config
+C:\Users\SeDMI\source\repos\Laba1\Laba1\bin\Debug\Laba1.exe
+C:\Users\SeDMI\source\repos\Laba1\Laba1\bin\Debug\Laba1.pdb
+C:\Users\SeDMI\source\repos\Laba1\Laba1\bin\Debug\Model.dll
+C:\Users\SeDMI\source\repos\Laba1\Laba1\bin\Debug\Model.pdb
+C:\Users\SeDMI\source\repos\Laba1\Laba1\obj\Debug\MigrantIDForm.csproj.AssemblyReference.cache
+C:\Users\SeDMI\source\repos\Laba1\Laba1\obj\Debug\Laba1.MainMenu.resources
+C:\Users\SeDMI\source\repos\Laba1\Laba1\obj\Debug\Laba1.Properties.Resources.resources
+C:\Users\SeDMI\source\repos\Laba1\Laba1\obj\Debug\MigrantIDForm.csproj.GenerateResource.cache
+C:\Users\SeDMI\source\repos\Laba1\Laba1\obj\Debug\MigrantIDForm.csproj.CoreCompileInputs.cache
+C:\Users\SeDMI\source\repos\Laba1\Laba1\obj\Debug\MigrantI.634E3760.Up2Date
+C:\Users\SeDMI\source\repos\Laba1\Laba1\obj\Debug\Laba1.exe
+C:\Users\SeDMI\source\repos\Laba1\Laba1\obj\Debug\Laba1.pdb
