@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MigrantIDConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+024483c5c4885753bbbcf9b499794f28fb8909dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f6485a3e0a888b24be06882b3d83e84ef9a8a66")]
 [assembly: System.Reflection.AssemblyProductAttribute("MigrantIDConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MigrantIDConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

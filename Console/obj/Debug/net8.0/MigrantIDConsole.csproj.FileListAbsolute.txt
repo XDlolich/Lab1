@@ -16,3 +16,22 @@ C:\Users\SeDMI\source\repos\Laba1\Console\obj\Debug\net8.0\refint\MigrantIDConso
 C:\Users\SeDMI\source\repos\Laba1\Console\obj\Debug\net8.0\MigrantIDConsole.pdb
 C:\Users\SeDMI\source\repos\Laba1\Console\obj\Debug\net8.0\MigrantIDConsole.genruntimeconfig.cache
 C:\Users\SeDMI\source\repos\Laba1\Console\obj\Debug\net8.0\ref\MigrantIDConsole.dll
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\bin\Debug\net8.0\MigrantIDConsole.exe
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\bin\Debug\net8.0\MigrantIDConsole.deps.json
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\bin\Debug\net8.0\MigrantIDConsole.runtimeconfig.json
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\bin\Debug\net8.0\MigrantIDConsole.dll
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\bin\Debug\net8.0\MigrantIDConsole.pdb
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\bin\Debug\net8.0\Model.dll
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\bin\Debug\net8.0\Model.pdb
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\MigrantIDConsole.csproj.AssemblyReference.cache
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\MigrantIDConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\MigrantIDConsole.AssemblyInfoInputs.cache
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\MigrantIDConsole.AssemblyInfo.cs
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\MigrantIDConsole.csproj.CoreCompileInputs.cache
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\MigrantIDConsole.sourcelink.json
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\MigrantI.30911EFC.Up2Date
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\MigrantIDConsole.dll
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\refint\MigrantIDConsole.dll
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\MigrantIDConsole.pdb
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\MigrantIDConsole.genruntimeconfig.cache
+C:\Users\SeDMI\OneDrive\Рабочий стол\Новая папка\Lab1\Console\obj\Debug\net8.0\ref\MigrantIDConsole.dll

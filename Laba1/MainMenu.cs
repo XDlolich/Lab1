@@ -225,6 +225,7 @@ namespace Laba1
             btnReset.Font = new Font("Segoe UI", 8f * scaleFactor, FontStyle.Regular);
             lbl_Instr1.Font = new Font("Segoe UI", 8f * scaleFactor, FontStyle.Regular);
             lbl_Instr2.Font = new Font("Segoe UI", 8f * scaleFactor, FontStyle.Regular);
+            btnAddNewCountry.Font = new Font("Segoe UI", 8f * scaleFactor, FontStyle.Regular);
         }
 
         /// <summary>
