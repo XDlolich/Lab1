@@ -53,8 +53,8 @@ namespace Laba1
                 txtMigrantName.Text,
                 cmbbCountries.Text,
                 txtDescription.Text,
-                dtpBirthday.Value,
-                dtpMigrationDate.Value,
+                dtpBirthday.Value.Date,
+                dtpMigrationDate.Value.Date,
                 chkCriminal.Checked
             );
 

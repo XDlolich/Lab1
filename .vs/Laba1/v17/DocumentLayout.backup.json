@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\laba1\\addmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|solutionrelative:laba1\\addmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\laba1\\addmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|solutionrelative:laba1\\addmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\laba1\\addcountryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|solutionrelative:laba1\\addcountryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\laba1\\editorreadmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|solutionrelative:laba1\\editorreadmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|c:\\users\\sedmi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\lab1\\laba1\\editorreadmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|solutionrelative:laba1\\editorreadmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|c:\\users\\sedmi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\lab1\\laba1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|solutionrelative:laba1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,28 +35,12 @@
       "RelativeMoniker": "D:0:0:{96692383-8EA5-4628-96A9-CFE77FD38EBC}|Console\\MigrantIDConsole.csproj|solutionrelative:console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\laba1\\addmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|solutionrelative:laba1\\addmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94D4B41F-3885-411E-A612-74EF31780519}|Model\\Model.csproj|C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\model\\migrant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94D4B41F-3885-411E-A612-74EF31780519}|Model\\Model.csproj|solutionrelative:model\\migrant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\laba1\\editorreadmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|solutionrelative:laba1\\editorreadmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\laba1\\addmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|solutionrelative:laba1\\addmigrantform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\laba1\\addcountryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|solutionrelative:laba1\\addcountryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\laba1\\addcountryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|solutionrelative:laba1\\addcountryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A558048-8694-4608-9861-149C95A8A991}|Laba1\\MigrantIDForms.csproj|C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\laba1\\addcountryform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,24 +86,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddMigrantForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddMigrantForm.cs",
+              "RelativeDocumentMoniker": "Laba1\\AddMigrantForm.cs",
+              "ToolTip": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddMigrantForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Laba1\\AddMigrantForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T18:58:06.872Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditOrReadMigrantForm.cs",
+              "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\EditOrReadMigrantForm.cs",
+              "RelativeDocumentMoniker": "Laba1\\EditOrReadMigrantForm.cs",
+              "ToolTip": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\EditOrReadMigrantForm.cs*",
+              "RelativeToolTip": "Laba1\\EditOrReadMigrantForm.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAADgv1gAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T17:18:00.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddCountryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddCountryForm.cs",
+              "RelativeDocumentMoniker": "Laba1\\AddCountryForm.cs",
+              "ToolTip": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddCountryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Laba1\\AddCountryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T19:01:00.932Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AddMigrantForm.cs",
+              "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddMigrantForm.cs",
+              "RelativeDocumentMoniker": "Laba1\\AddMigrantForm.cs",
+              "ToolTip": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddMigrantForm.cs",
+              "RelativeToolTip": "Laba1\\AddMigrantForm.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADgvzQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:00:05.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditOrReadMigrantForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\EditOrReadMigrantForm.cs",
+              "RelativeDocumentMoniker": "Laba1\\EditOrReadMigrantForm.cs",
+              "ToolTip": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\EditOrReadMigrantForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "Laba1\\EditOrReadMigrantForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T20:35:30.037Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\MainMenu.cs",
               "RelativeDocumentMoniker": "Laba1\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\MainMenu.cs*",
-              "RelativeToolTip": "Laba1\\MainMenu.cs*",
-              "ViewState": "AgIAAM0AAAAAAAAAAIA+wOMAAAAcAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\MainMenu.cs",
+              "RelativeToolTip": "Laba1\\MainMenu.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAArwOMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T20:28:49.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Console\\Program.cs",
               "RelativeDocumentMoniker": "Console\\Program.cs",
@@ -107,59 +173,22 @@
               "RelativeToolTip": "Console\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T20:15:31.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddMigrantForm.cs",
-              "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddMigrantForm.cs",
-              "RelativeDocumentMoniker": "Laba1\\AddMigrantForm.cs",
-              "ToolTip": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddMigrantForm.cs",
-              "RelativeToolTip": "Laba1\\AddMigrantForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:00:05.241Z"
+              "WhenOpened": "2025-09-22T20:15:31.498Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AddMigrantForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddMigrantForm.cs",
-              "RelativeDocumentMoniker": "Laba1\\AddMigrantForm.cs",
-              "ToolTip": "C:\\Users\\SeDMI\\source\\repos\\Laba1\\Laba1\\AddMigrantForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Laba1\\Laba1\\AddMigrantForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:58:06.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditOrReadMigrantForm.cs",
-              "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\EditOrReadMigrantForm.cs",
-              "RelativeDocumentMoniker": "Laba1\\EditOrReadMigrantForm.cs",
-              "ToolTip": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\EditOrReadMigrantForm.cs",
-              "RelativeToolTip": "Laba1\\EditOrReadMigrantForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T17:18:00.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\MainMenu.cs",
               "RelativeDocumentMoniker": "Laba1\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "Laba1\\MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "ToolTip": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Laba1\\MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T21:48:42.997Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-09-15T21:48:42.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AddCountryForm.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddCountryForm.cs",
               "RelativeDocumentMoniker": "Laba1\\AddCountryForm.cs",
@@ -167,11 +196,12 @@
               "RelativeToolTip": "Laba1\\AddCountryForm.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAowBEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T19:06:18.458Z"
+              "WhenOpened": "2025-09-22T19:06:18.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Migrant.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Model\\Migrant.cs",
               "RelativeDocumentMoniker": "Model\\Migrant.cs",
@@ -183,18 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddCountryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddCountryForm.cs",
-              "RelativeDocumentMoniker": "Laba1\\AddCountryForm.cs",
-              "ToolTip": "C:\\Users\\SeDMI\\source\\repos\\Laba1\\Laba1\\AddCountryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Laba1\\Laba1\\AddCountryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T19:01:00.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AddCountryForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddCountryForm.Designer.cs",
               "RelativeDocumentMoniker": "Laba1\\AddCountryForm.Designer.cs",
@@ -202,11 +221,12 @@
               "RelativeToolTip": "Laba1\\AddCountryForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T19:02:47.651Z"
+              "WhenOpened": "2025-09-22T19:02:47.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\Program.cs",
               "RelativeDocumentMoniker": "Laba1\\Program.cs",
@@ -218,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "MainMenu.Designer.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\MainMenu.Designer.cs",
               "RelativeDocumentMoniker": "Laba1\\MainMenu.Designer.cs",
@@ -226,12 +246,11 @@
               "RelativeToolTip": "Laba1\\MainMenu.Designer.cs",
               "ViewState": "AgIAAI8AAAAAAAAAAAAkwJ8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T21:52:24.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T21:52:24.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "EditOrReadMigrantForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\EditOrReadMigrantForm.Designer.cs",
               "RelativeDocumentMoniker": "Laba1\\EditOrReadMigrantForm.Designer.cs",
@@ -239,11 +258,12 @@
               "RelativeToolTip": "Laba1\\EditOrReadMigrantForm.Designer.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwKkAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T17:27:52.157Z"
+              "WhenOpened": "2025-09-15T17:27:52.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Laba1\\Properties\\AssemblyInfo.cs",
@@ -255,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\Program.cs",
               "RelativeDocumentMoniker": "Laba1\\Program.cs",
@@ -267,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\MainMenu.cs",
               "RelativeDocumentMoniker": "Laba1\\MainMenu.cs",
@@ -278,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MainMenu.Designer.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\MainMenu.Designer.cs",
               "RelativeDocumentMoniker": "Laba1\\MainMenu.Designer.cs",
@@ -290,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AddMigrantForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\SeDMI\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Lab1\\Laba1\\AddMigrantForm.Designer.cs",
               "RelativeDocumentMoniker": "Laba1\\AddMigrantForm.Designer.cs",
@@ -298,7 +318,8 @@
               "RelativeToolTip": "Laba1\\AddMigrantForm.Designer.cs",
               "ViewState": "AgIAAJEAAAAAAAAAAAAkwKgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:59:05.197Z"
+              "WhenOpened": "2025-09-15T18:59:05.197Z",
+              "EditorCaption": ""
             }
           ]
         }

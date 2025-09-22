@@ -85,8 +85,8 @@ namespace Laba1
             EditedMigrant.Name = txtMigrantName.Text;
             EditedMigrant.CountryOfOrigin = cmbbCountries.Text;
             EditedMigrant.Description = txtDescription.Text;
-            EditedMigrant.Birthday = dtpBirthday.Value;
-            EditedMigrant.DayOfMigration = dtpMigrationDate.Value;
+            EditedMigrant.Birthday = dtpBirthday.Value.Date;
+            EditedMigrant.DayOfMigration = dtpMigrationDate.Value.Date;
             EditedMigrant.HasCriminalRecord = chkCriminal.Checked;
 
             DialogResult = DialogResult.OK;
